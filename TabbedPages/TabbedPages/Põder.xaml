@@ -2,9 +2,11 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Põder"
-            Title="Лось">
-  <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст"/>
+            Title="Лось"
+            BackgroundColor="Wheat"
+            BarTextColor="Black">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Средний возраст лосей"/>
     <ContentPage Title="Факт о лосях"/>
-    <ContentPage Title="Питание"/>
+    <ContentPage Title="Питание лосей"/>
 </TabbedPage>

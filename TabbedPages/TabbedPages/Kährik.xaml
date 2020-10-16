@@ -2,9 +2,11 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Kährik"
-            Title="Енот">
+            Title="Енот"
+            BackgroundColor="Wheat"
+            BarTextColor="Black">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст"/>
+    <ContentPage Title="Средний возраст енота"/>
     <ContentPage Title="Факт о енотах"/>
-    <ContentPage Title="Питание"/>
+    <ContentPage Title="Питание енота"/>
 </TabbedPage>

@@ -2,10 +2,16 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Hunt"
-            Title="Волк">
+            Title="Волк"
+            BackgroundColor="Wheat"
+            BarTextColor="Black">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст"/>
+    <ContentPage Title="Средний возраст волка">
+        <Label Text="Седний возраст волка 6-8 лет"
+               Margin="100,0"
+               FontSize="Large"/>
+    </ContentPage>
     <ContentPage Title="Факт о волках"/>
-    <ContentPage Title="Питание"/>
+    <ContentPage Title="Питание волка"/>
 
 </TabbedPage>
