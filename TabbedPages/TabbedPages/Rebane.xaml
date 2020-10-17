@@ -3,10 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Rebane"
             Title="Лиса"
-            BackgroundColor="Wheat"
-            BarTextColor="Black">
+            BackgroundColor="Honeydew"
+            BarTextColor="Black"
+            BarBackgroundColor="Wheat">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст лисы"/>
-    <ContentPage Title="Факт о лисах"/>
-    <ContentPage Title="Питание лис"/>
+    <ContentPage Title="Средний возраст лисы">
+        <StackLayout>
+            <Label Text="В естественных условиях лисы живут от 2 до 10 лет. Уходят в мир иной они, скорее, не от старости, а от болезней, становятся жертвами охотников и более крупных хищников."
+                   FontSize="Large"
+                   Margin="20,20"/>
+            <Image Source="foxx.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Факты о лисах">
+        <StackLayout>
+            <Label Text="Лисы зимой ведут одиночный способ жизни и только к лету они заводят семьи.
+В лисьей семье заботу о потомстве берут на себя оба родителя.
+Лисицы всеядные.
+Хвост для лисы очень важный орган.
+Лисицы очень осторожны.
+Максимальная скорость, с которой может бежать лиса, – 50 км/ч."
+               FontSize="Title"
+                   Margin="20,20"/>
+            <Image Source="ff.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Питание лис">
+        <StackLayout>
+            <Label Text="В рацион лисы входят около 400 видов разных животных. Охотится лиса на мелких грызунов, зайцев, птиц, пресмыкающихся, жуков. Зимой основу питания составляют полевые мыши. От численности мышей напрямую зависит количество популяции лисиц."
+                   Margin="20,20"
+                   FontSize="Title"/>
+            <Image Source="Eda.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

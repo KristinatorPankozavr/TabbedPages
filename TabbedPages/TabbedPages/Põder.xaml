@@ -3,10 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Põder"
             Title="Лось"
-            BackgroundColor="Wheat"
-            BarTextColor="Black">
+            BackgroundColor="Honeydew"
+            BarTextColor="Black"
+            BarBackgroundColor="Wheat">
     <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст лосей"/>
-    <ContentPage Title="Факт о лосях"/>
-    <ContentPage Title="Питание лосей"/>
+    <ContentPage Title="Средний возраст лосей">
+        <StackLayout>
+            <Label Text="Половозрелыми лоси становятся в 2 года. После 12 лет лось начинает стареть; в природе лосей старше 10 лет не более 3 %. В неволе доживают до 20—22 лет."
+                   FontSize="Large"
+                   Margin="20,20"/>
+            <Image Source="cute.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Факты о лосях">
+        <StackLayout>
+            <Label Text="При длине до 3 метров и высоте в холке до 2,3 метров взрослый лось может весить до 600 кг.
+Ближайшим родственником лося с биологической точки зрения является олень (см. ...
+Лоси отлично плавают, причём они не боятся ни холодной воды, ни значительных расстояний, преодолевая водные преграды до 20-25 километров шириной."
+                   Margin="20,20"
+                   FontSize="Title"/>
+            <Image Source="los.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Питание лосей">
+        <StackLayout>
+            <Label Text="К числу основных зимних кормов лосей относятся ива, сосна (в Северной Америке — пихта), осина, рябина, берёза, малина; в оттепели они гложут кору. За сутки взрослый лось съедает: летом около 35 кг корма, а зимой — 12—15 кг; за год — около 7 т. При большой численности лоси повреждают лесные питомники и посадки."
+                   Margin="20,20"
+                   FontSize="Title"/>
+            <Image Source="bub.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

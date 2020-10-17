@@ -3,10 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Kährik"
             Title="Енот"
-            BackgroundColor="Wheat"
-            BarTextColor="Black">
+            BackgroundColor="Honeydew"
+            BarTextColor="Black"
+            BarBackgroundColor="Wheat">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Средний возраст енота"/>
-    <ContentPage Title="Факт о енотах"/>
-    <ContentPage Title="Питание енота"/>
+    <ContentPage Title="Средний возраст енота">
+        <StackLayout>
+            <Label Text="В дикой природе еноты живут в среднем 2-5 лет. У этих зверьков много естественных врагов, а их любопытство не продлевает жизнь. Кроме того, на срок жизни влияют и болезни и паразиты, так же питание и условия жизни."
+                 FontSize="Large"
+                   Margin="30,30"/>
+            <Image Source="mnogo.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Факты о енотах">
+        <StackLayout>
+            <Label Text="Еноты – отдаленные родственники медведей.
+Свое потомство самка кормит 24 раза в день.
+Зрение и слух у малышей появляется только на третьей неделе жизни.
+На лапах у енота находится тысячи осязательных рецепторов, с их помощью животное способно определить объект, даже не смотря на него."
+                 FontSize="Title"
+                   Margin="20,20"/>
+            <Image Source="enot.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Питание енотов">
+        <StackLayout>
+            <Label Text="Весной и в начале лета основу его рациона составляют животные корма; во второй половине лета и осенью он предпочитает растительную пищу. Основной животный корм енота — насекомые и лягушки, реже рептилии (змеи, ящерицы), раки и крабы, рыба, грызуны и птичьи яйца." 
+                   FontSize="Title"
+                   Margin="30,30"/>
+            <Image Source="EnotEst.jpg" IsAnimationPlaying="True"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

@@ -3,15 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPages.Hunt"
             Title="Волк"
-            BackgroundColor="Wheat"
-            BarTextColor="Black">
+            BackgroundColor="Honeydew"
+            BarTextColor="Black"
+            BarBackgroundColor="Wheat">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Средний возраст волка">
-        <Label Text="Седний возраст волка 6-8 лет"
-               Margin="100,0"
+        <StackLayout>
+            <Label Text="Седний возраст волка 8-16 лет"
+               Margin="30,30"
                FontSize="Large"/>
+            <Image Source="v.jpg"
+                   Margin="20,20"/>
+            <Image Source="o.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
     </ContentPage>
-    <ContentPage Title="Факт о волках"/>
-    <ContentPage Title="Питание волка"/>
+    <ContentPage Title="Факты о волках">
+        <StackLayout>
+            <Label Text="Мозг у волка на 30% больше чем у собаки, это означает, что волк способен запоминать больше необходимой информации, чем его близкий родственник.
+Вожак стаи всегда идет впереди своей стаи с высоко поднятым хвостом.
+Размер животного в иерархии стаи не столь важен как характер."
+               FontSize="Large"
+               Margin="10,20"/>
+            <Image Source="volk1.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Питание волка">
+        <StackLayout>
+            <Label Text="В дикой природе волк питается крупными животными, более мелкими млекопитающими, а также рыбой, птицами, насиживающими кладку, и их яйцами. Добычей волков часто становятся крупные и мелкие домашние животные и птицы , а также лисы, дикие собаки и корсаки."
+               FontSize="Title"
+               Margin="10,20"/>
+            <Image Source="volk2.jpg"
+                   Margin="20,20"/>
+        </StackLayout>
+    </ContentPage>
 
 </TabbedPage>
