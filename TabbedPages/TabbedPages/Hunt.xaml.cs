@@ -16,5 +16,10 @@ namespace TabbedPages
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            (sender as Button).Text = "Ну вот и все... А чего вы ждали?)";
+        }
     }
 }
